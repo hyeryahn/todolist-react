@@ -1,0 +1,45 @@
+.list-container {
+  padding: 0 5px 10px 0;
+  margin: 10px 0;
+  height: 430px;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.list {
+  list-style: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px #ececec;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.contentbox {
+  width: 85%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  resize: none;
+}
+
+.img-container,
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.pencil-icon,
+.bin-icon {
+  width: 18px;
+  height: 18px;
+  margin: 0 10px;
+}
